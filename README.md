@@ -11,4 +11,4 @@ Tests AD passwords while respecting Bad Password Count
 # Usage
 Get password lockout threshold using **net accounts /domain** or other alternatives. The program will attempt to keep badpwdcount to lockout value - 2
 
-> DomainPasswordTest.exe -p Password123! --Lockout <value>
+> DomainPasswordTest.exe -p Password123! --Lockout 7
